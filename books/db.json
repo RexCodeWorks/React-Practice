@@ -1,8 +1,12 @@
 {
   "books": [
     {
-      "title": "harry porter",
+      "title": "Harry Porter",
       "id": 2
+    },
+    {
+      "title": "The Line",
+      "id": 3
     }
   ]
 }
