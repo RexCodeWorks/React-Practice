@@ -1,41 +1,26 @@
-import { GoBell, GoCloudDownload, GoDatabase } from 'react-icons/go'
-import Button from "./Button";
-
+import { useState } from "react";
+import Dropdown from "./components/Dropdown";
 
 function App() {
+    const [selection, setSelection] = useState(null);
 
-    const handleClick = () => {
-        console.log('Clicked!');
+    const handleSelect = (option) => {
+        setSelection(option);
     };
 
-    return (
-        <div>
-            <div>
-                <Button success className="mb-5" onClick={handleClick}>
-                    <GoBell />
-                    Click me
-                </Button>
-            </div>
-            <div>
-                <Button danger >
-                    <GoCloudDownload />
-                    Click me
-                </Button>
-            </div>
-            <div>
-                <Button warning>
-                    <GoDatabase />
-                    Click me
-                </Button>
-            </div>
-            <div>
-                <Button secondary>Click me</Button>
-            </div>
-            <div>
-                <Button primary>Click me</Button>
-            </div>
-        </div>
+    const options = [
+        { label: 'Red', value: 'red' },
+        { label: 'Green', value: 'green' },
+        { label: 'Yellow', value: 'yellow' },
+        { label: 'Black', value: 'black' },
+    ];
 
+
+
+    return (
+        <div className="flex">
+            <Dropdown options={options} value={selection} onChange={handleSelect} />
+        </div>
     );
 }
 
