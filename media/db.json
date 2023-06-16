@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Krystal Metz",
+      "id": 2
+    },
+    {
+      "name": "Sherri Conn",
+      "id": 3
+    },
+    {
+      "name": "Jimmie Jacobs",
+      "id": 4
+    },
+    {
+      "name": "Marian Baumbach",
+      "id": 5
+    },
+    {
+      "name": "Dr. Ruben Reilly I",
+      "id": 8
+    },
+    {
+      "name": "Josefina Hodkiewicz",
+      "id": 10
+    },
+    {
+      "name": "Ida Wehner",
+      "id": 11
+    },
+    {
+      "name": "Ted Will",
+      "id": 12
+    },
+    {
+      "name": "Jay Cormier",
+      "id": 13
+    },
+    {
+      "name": "Gene Schaefer",
+      "id": 14
+    },
+    {
+      "name": "Claudia Brakus",
+      "id": 15
+    },
+    {
+      "name": "Ana Crona",
+      "id": 16
+    },
+    {
+      "name": "Rudy Bergstrom",
+      "id": 17
+    },
+    {
+      "name": "Lonnie Tremblay",
+      "id": 18
+    },
+    {
+      "name": "Rufus Franecki",
+      "id": 19
+    },
+    {
+      "name": "Adam Bednar",
+      "id": 20
+    }
+  ],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Ergonomic Metal Ball",
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "title": "Tasty Rubber Bacon",
+      "id": 19
+    },
+    {
+      "userId": 3,
+      "title": "Licensed Rubber Pants",
+      "id": 20
+    },
+    {
+      "userId": 4,
+      "title": "Generic Cotton Pizza",
+      "id": 21
+    },
+    {
+      "userId": 2,
+      "title": "Modern Concrete Chips",
+      "id": 33
+    },
+    {
+      "userId": 2,
+      "title": "Bespoke Metal Fish",
+      "id": 34
+    },
+    {
+      "userId": 3,
+      "title": "Refined Plastic Ball",
+      "id": 37
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=655018327801856",
+      "id": 1
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4817323261165568",
+      "id": 4
+    },
+    {
+      "albumId": 19,
+      "url": "https://loremflickr.com/640/480?lock=4895916022562816",
+      "id": 10
+    },
+    {
+      "albumId": 34,
+      "url": "https://loremflickr.com/640/480?lock=588112721870848",
+      "id": 11
+    },
+    {
+      "albumId": 34,
+      "url": "https://picsum.photos/seed/jNIch8EU/640/480",
+      "id": 12
+    },
+    {
+      "albumId": 34,
+      "url": "https://picsum.photos/seed/8kyl2/640/480",
+      "id": 14
+    },
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/640/480?lock=7739111525842944",
+      "id": 15
+    },
+    {
+      "albumId": 11,
+      "url": "https://picsum.photos/seed/4gQQ3UkWD/640/480",
+      "id": 16
+    },
+    {
+      "albumId": 11,
+      "url": "https://picsum.photos/seed/nfe2ybVbUp/640/480",
+      "id": 17
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/640/480?lock=4146728387215360",
+      "id": 18
+    },
+    {
+      "albumId": 19,
+      "url": "https://loremflickr.com/640/480?lock=7867622567706624",
+      "id": 19
+    }
+  ]
+}
